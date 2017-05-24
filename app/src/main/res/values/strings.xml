@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ice</string>
+    <string name="ques_1">图灵机是图灵发明的吗？</string>
+    <string name="true_toast">you are right</string>
+    <string name="false_toast">you are false</string>
+    <string name="select">you haved not select</string>
+    <string name="s_ture">you selected true</string>
+    <string name="s_false">you seleceted false</string>
+    <string name="blank">you haved not set question</string>
+    <string name="clear">clear</string>
+    <string name="nothing">nothing</string>
+    <string name="title_activity_result">result</string>
+</resources>
