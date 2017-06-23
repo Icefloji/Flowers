@@ -4,5 +4,10 @@
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+<style name="button">
+    <item name="android:textColor">@color/but_col</item>
+    <item name="android:button">@null</item>
+  <item name="android:textSize">20dp</item>
 
+</style>
 </resources>

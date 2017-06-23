@@ -7,3 +7,9 @@
 /build
 /captures
 .externalNativeBuild
+app/src/main/java/com/ice/saber/ice/ansq_page.java
+app/build.gradle
+app/build.gradle
+*.xml
+*.xml
+.idea/encodings.xml

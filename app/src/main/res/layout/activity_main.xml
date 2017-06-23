@@ -6,19 +6,58 @@
     android:layout_height="match_parent"
     tools:context="com.ice.saber.ice.MainActivity">
 
-    <Button
-        android:text="ans question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:layout_marginTop="100dp"
-        android:layout_centerHorizontal="true"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/f_main">
 
-    <Button
-        android:text="add  question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button7"
-        android:layout_marginTop="220dp" />
+    </FrameLayout>
+
+    <RadioGroup
+        android:background="@drawable/radiogroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            style="@style/button"
+
+            android:background="@drawable/but_kuang"
+            android:text="@string/add_question"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/radioButton1"
+            android:layout_weight="1" />
+
+        <RadioButton
+            style="@style/button"
+            android:text="@string/load_question"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/radioButton2"
+            android:layout_weight="1" />
+
+        <RadioButton
+            style="@style/button"
+            android:text="@string/ans_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_weight="1" />
+
+        <RadioButton
+            style="@style/button"
+            android:text="@string/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:layout_weight="1" />
+    </RadioGroup>
+
 </RelativeLayout>

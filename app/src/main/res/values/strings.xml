@@ -1,13 +1,27 @@
 <resources>
-    <string name="app_name">Ice</string>
+    <string name="app_name">Ice_Flower</string>
     <string name="ques_1">图灵机是图灵发明的吗？</string>
+    //toast
     <string name="true_toast">you are right</string>
     <string name="false_toast">you are false</string>
+    //select item
     <string name="select">you haved not select</string>
     <string name="s_ture">you selected true</string>
     <string name="s_false">you seleceted false</string>
     <string name="blank">you haved not set question</string>
+    //notes
+    <string name="true_b">true</string>
+    <string name="false_b">false</string>
+    <string name="last_b">last</string>
+    <string name="next_b">next</string>
     <string name="clear">clear</string>
     <string name="nothing">nothing</string>
-    <string name="title_activity_result">result</string>
+    <string name="ans_question">ans</string>
+    <string name="add_question">add</string>
+    <string name="load_question">load</string>
+    <string name="sub">submit</string>
+<string name="welcome">welcome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">delete</string>
 </resources>
